@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+.about-content{
+  width: 80%;
+}
+
+.about-image{
+  float: left;
+}
+
+.about-top{
+  float:right;
+  margin-top: 50px;
+  text-align: left;
+
+  
+}
+
+.about-main{
+  width: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
