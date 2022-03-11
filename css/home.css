@@ -20,6 +20,12 @@
 
 }
 
+.nameofimage{
+  color: black;
+  padding: 1em;
+  font-size: small;
+}
+
 .nameofproject{
   display: flex;
   justify-content: center;
@@ -28,6 +34,14 @@
   padding: 1em;
   background-color: aquamarine;
   text-decoration-line: underline;
+}
+
+.myportfolioheading{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-style: italic;
+  text-shadow: 2px,2px red;
 }
 
 /* Style the Image Used to Trigger the Modal */
