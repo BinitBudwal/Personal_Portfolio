@@ -13,11 +13,21 @@
   display: flex;
   justify-content: center;
   padding: 2em;
+  background-image: linear-gradient(to bottom right, wheat, grey );
+  border-radius: 100%;
+  text-align: center;
+  list-style-type: circle;
+
 }
 
 .nameofproject{
   display: flex;
   justify-content: center;
+  font-size: larger;
+  font-style: italic;
+  padding: 1em;
+  background-color: aquamarine;
+  text-decoration-line: underline;
 }
 
 /* Style the Image Used to Trigger the Modal */
