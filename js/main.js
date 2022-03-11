@@ -31,3 +31,4 @@ function nextImage(direction) {
   }
   images[index].classList.add('main');
 }
+
