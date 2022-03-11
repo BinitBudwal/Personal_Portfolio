@@ -1,0 +1,40 @@
+h1.heading-blog{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  padding-bottom: 0%;
+}
+
+h2.blog-heading1{
+  font-weight: 600;
+  font-style: italic;
+  padding: 1em;
+  padding-left: 0;
+}
+
+p{
+  padding: 1em;
+  padding-left: 0;
+  font-style: oblique;
+  font-weight: 500;
+  
+}
+
+.blog-content{
+  margin: 10%;
+}
+
+.small-text{
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.blog-image{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  
+}

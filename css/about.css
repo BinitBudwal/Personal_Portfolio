@@ -1,25 +1,64 @@
 *{
   box-sizing: border-box;
 }
+
+h2{
+ 
+}
+
+h3{
+
+}
+
+.about-banner{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right,darkblue, pink);
+
+}
+
+.about-top{
+  display:block;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-image{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  
+  
+
+}
+
+.about-main-content{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 2em;
+  font-size: 17px;
+  font-style: italic;
+}
+
+
+
+/* 
 .about-content{
   width: 80%;
 }
 
 .about-image{
-  float: left;
+display: flex;
 }
 
 .about-top{
-  float:right;
-  margin-top: 50px;
-  text-align: left;
-
-  
+  position: fixed;
+  left: 50%;
 }
 
-.about-main{
+.about-main-content{
   width: 60%;
   text-align: center;
-  display: flex;
-  align-items: center;
-}
+  
+} */

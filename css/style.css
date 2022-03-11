@@ -58,6 +58,11 @@ h1{
   padding: 2em;
 }
 
+.contact-banner{
+  display: flex;
+  justify-content: center;
+}
+
 .contact-form {
   background-image: linear-gradient(to bottom right, orange, pink );
   background-color: black;
