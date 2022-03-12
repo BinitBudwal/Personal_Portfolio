@@ -20,7 +20,7 @@
       <li class="nav-item"><a href="/Blog.html">Blog</a></li>
     </ul>
   </div>
-
+  <button onclick="myFunction()">Toggle dark mode</button>
   <h1 class="heading-blog">Introduction to HTML & CSS</h1>
 
   <div class="blog-content">
@@ -121,6 +121,11 @@
     </div>
   
   </div>
-
+<script>
+  function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
