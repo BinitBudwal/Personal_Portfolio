@@ -117,3 +117,11 @@ label{
   padding: 1em;
   background-color: aliceblue;
 }
+
+html {
+  filter: invert(100%);
+}
+
+html img {
+  filter: invert(100%);
+}

@@ -38,3 +38,10 @@ p{
   padding: 1em;
   
 }
+html {
+  filter: invert(100%);
+}
+
+html img {
+  filter: invert(100%);
+}
