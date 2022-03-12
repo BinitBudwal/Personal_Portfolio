@@ -8,7 +8,7 @@
     "copy:html": "cp src/*.html dist",
     "imagemin": "imagemin src/images/* -o dist/images",
     "rollup": "rollup src/js/main.js --file dist/js/bundle.js --format es",
-    "build": "npm run build:css && npm run copy:html && npm run rollup"
+    "build": "npm run build:css && npm run copy:html && npm run rollup && npm run imagemin"
   },
   "repository": {
     "type": "git",
