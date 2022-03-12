@@ -22,7 +22,7 @@
       <li class="nav-item"><a href="/Blog.html">Blog</a></li>
     </ul>
   </div>
-
+  <button onclick="myFunction()">Toggle dark mode</button>
   <div class="project">
 
     <div class="myportfolioheading">
@@ -256,7 +256,12 @@
         <li>It also includes major concepts like using javascript in webpages and event listener.</li> </h4>
     </div>
   </div>
-  <script>var modal = document.getElementById("myModal");
+  <script>
+  function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+  var modal = document.getElementById("myModal");
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     var img = document.getElementsByClassName("myImg");
@@ -272,7 +277,7 @@
       modalImg.src = this.src;
       captionText.innerHTML = this.alt;
     }
-  }
+}
     
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];

@@ -105,10 +105,3 @@
   display: block;
 }
 
-html {
-  filter: invert(100%);
-}
-
-html img {
-  filter: invert(100%);
-}

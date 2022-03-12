@@ -116,10 +116,11 @@
   text-decoration: none;
   cursor: pointer;
 }
-html {
+
+.darkmode > html {
   filter: invert(100%);
 }
 
-html img {
+.darkmode > html img {
   filter: invert(100%);
 }
