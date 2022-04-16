@@ -116,11 +116,3 @@
   text-decoration: none;
   cursor: pointer;
 }
-
-.darkmode > html {
-  filter: invert(100%);
-}
-
-.darkmode > html img {
-  filter: invert(100%);
-}
